@@ -1,0 +1,77 @@
+/*Estilos da página index.html*/
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-justify: justify;
+}
+
+.container{
+display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center;
+font-size: large;
+color: #a67d03;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #bf5084;
+}
+#menu li a:hover{
+    color: grey;
+}
+
+.title{
+    text-align: center;
+    color: #a67d03;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br50{
+    border-radius: 50%;
+}
+.wh{
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mt-0{
+    margin-top: 0px;
+}
+
+.all{
+    background-color: #f2e52f;
+}
+
+/*Estilos da página comedia.html*/
+.vddir{
+    align-items: flex-end;
+}
+.tex-dir{
+text-align: right;
+}
+.videsq{
+    align-items: flex-start;
+}
